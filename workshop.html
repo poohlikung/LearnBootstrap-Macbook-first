@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ยินดีต้อนรับเข้าสู่หน้่าเว็ป</title>
+    <link rel="stylesheet" href="app/css/bootstrap.min.css">
+    <script src="app/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-item {
+            height: 500px;
+        }
+
+        .carousel-image-1 {
+            background-image: url("https://cbtthailand.dasta.or.th/upload-file-api/Resources/Attraction/Images/ATT920009/1_resize.jpg");
+            background-size: cover;
+        }
+
+        .carousel-image-2 {
+            background-image: url("https://www.freedomdive.com/uploads/Image/article-banner/Banner-month-sea.jpg");
+            background-size: cover;
+        }
+
+        .carousel-image-3 {
+            background-image: url("https://www.hintokrivercamp.com/wp-content/uploads/2025/01/1.1-10-ที่เที่ยวภูเขาบรรยากาศดี-วิวหลักล้าน.webp");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Photo Booth</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="showmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="workshop.html" class="nav-link">หน้าแรก</a></li>
+                    <li class="nav-item"><a href="workshop.html" class="nav-link">ผลงานของเรา</a></li>
+                    <li class="nav-item"><a href="workshop.html" class="nav-link">เกี่ยวกับเรา</a></li>
+                    <li class="nav-item"><a href="workshop.html" class="nav-link">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- Create Slide photo -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">พระอาทิตย์สวยงาม</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, nesciunt nobis
+                                incidunt ab tempore in sed dolores repellendus delectus nihil!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ทะเลสวยงาม</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, nesciunt nobis
+                                incidunt ab tempore in sed dolores repellendus delectus nihil!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ภูเขายิ่งใหญ่</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, nesciunt nobis
+                                incidunt ab tempore in sed dolores repellendus delectus nihil!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev"><span
+                        class="carousel-control-prev-icon">
+                    </span></button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next"><span
+                        class="carousel-control-next-icon">
+                    </span></button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Grid System -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fa-solid fa-person-walking"></i>
+                    <h3>ไกด์นำเที่ยว</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, laudantium.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h3>ตกแต่งรูปภาพ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, laudantium.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center ">
+                    <i class="fa-solid fa-camera"></i>
+
+                    <h3>ถ่ายคลิปวิดีโอ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, laudantium.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+     <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5"></div>
+                </div>
+            </div>
+        </div>
+     </section>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-image-1 {
+    background-image: url("https://cbtthailand.dasta.or.th/upload-file-api/Resources/Attraction/Images/ATT920009/1_resize.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-image: url("https://www.freedomdive.com/uploads/Image/article-banner/Banner-month-sea.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-image: url("https://www.hintokrivercamp.com/wp-content/uploads/2025/01/1.1-10-ที่เที่ยวภูเขาบรรยากาศดี-วิวหลักล้าน.webp");
+    background-size: cover;
+}
