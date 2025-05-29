@@ -1,0 +1,41 @@
+ html{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: whitesmoke;
+        }
+        nav{
+            background-color: #333;
+            margin-bottom: 20px;
+            
+        }
+        nav>a{
+            color: white;
+            text-decoration: none;
+            margin: 30px;
+            transition: 1s;
+        }
+        nav>a:hover{
+            color: red;
+        }
+        img{
+            width: 100%;
+        }
+        .box{
+            max-width: 700px;
+            background-color: #333;
+            color: aliceblue;
+            padding: 10px;
+            margin: 20px;
+        }
+        .brand{
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        footer{
+            background-color: #333;
+            color: aliceblue;
+            text-align: end;
+        }

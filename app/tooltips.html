@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+    <div class="m-5 container">
+        <button 
+        class="btn btn-primary" 
+        data-bs-toggle="tooltip" 
+        data-bs-placement="left"
+         title="13:00 - 19:00">
+         เวลาทำการ</button>
+         <br>
+         <hr>
+        <button 
+        class="btn btn-success"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="19:00 - 20:00">เวลาทำการเพจ</button>
+        </div>
+
+   <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+   </script>
+</body>
+
+</html>
